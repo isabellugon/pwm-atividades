@@ -1,5 +1,5 @@
 window.addEventListener("load", () => {
-    alert("Bem-vindo(a) ao portfólio de Isabel Lugon!");
+    alert("Bem-vindo(a) ao meu currículo!");
   });
   
   document.querySelectorAll('nav a[href^="#"]').forEach(link => {
