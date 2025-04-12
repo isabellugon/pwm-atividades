@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jogo Senha</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Jogo Senha (Bulls and Cows)</h1>
+    <nav>
+      <a href="index.html">Voltar ao Portfólio</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <p>Tente adivinhar a senha de 4 dígitos únicos!</p>
+      <input type="text" id="guessInput" maxlength="4" placeholder="Ex: 1234" />
+      <button onclick="makeGuess()">Tentar</button>
+      <button onclick="revealSecret()">Revelar Senha</button>
+    </section>
+
+    <section>
+      <h2>Tentativas</h2>
+      <ul id="attemptsList"></ul>
+    </section>
+  </main>
+
+  <script src="senha.js"></script>
+</body>
+</html>
